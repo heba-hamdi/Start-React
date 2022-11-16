@@ -1,0 +1,22 @@
+@mixin title{
+    font: {
+        size:3rem !important;
+        weight: 700 !important;
+        family: Montserrat
+        -apple-system
+        BlinkMacSystemFont
+        "Segoe UI"
+        Roboto
+        "Helvetica Neue"
+        Arial
+        "Noto Sans"
+        sans-serif
+        "Apple Color Emoji"
+        "Segoe UI Emoji"
+        "Segoe UI Symbol"
+        "Noto Color Emoji";
+    }
+
+    color: $dark-blue;
+    text-transform: uppercase;
+}

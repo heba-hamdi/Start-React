@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/title';
+@import '../../styles/flex';
+@import'../../styles/divider';
+
+.section1{
+    background-color: $green;
+    color:#fff;
+}
+
+
+h2{
+    @include title;
+    text-align: center;
+    color:#fff;
+}
+
+.divider {
+    @include title;
+    .divider-line {
+     background-color: #fff;
+    }
+    .divider-icon{
+     color:#fff;
+    }
+ }
+

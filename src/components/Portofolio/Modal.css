@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;1,800&display=swap");
+.big-card {
+  margin: 0 auto;
+  position: relative;
+}
+.big-card .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: auto 50px;
+  background-color: #fff;
+  position: relative;
+}
+.big-card .card .card-title {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  font-family: Montserrat -apple-system BlinkMacSystemFont "Segoe UI" Roboto "Helvetica Neue" Arial "Noto Sans" sans-serif "Apple Color Emoji" "Segoe UI Emoji" "Segoe UI Symbol" "Noto Color Emoji";
+  color: #2C3E50;
+  text-transform: uppercase;
+}
+.big-card .card img, .big-card .card .card-text {
+  width: 700px;
+}
+.big-card .card .btn {
+  background-color: #1ABC9C !important;
+  transition: background-color 0.3s ease;
+}
+.big-card .card .btn:hover {
+  background-color: #19997f !important;
+}
+.big-card .card .close-btn {
+  color: #1ABC9C;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-weight: 700;
+  cursor: pointer;
+}/*# sourceMappingURL=Modal.css.map */

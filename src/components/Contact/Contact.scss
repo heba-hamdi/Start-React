@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/title';
+@import '../../styles/flex';
+@import '../../styles/divider';
+
+
+
+.contact-title{
+    @include title;
+    }
+
+    .divider{
+        @include divider
+    }  
+
+   .form-control{
+        border:0;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.492);
+        border-radius: 0;    
+    }
+
+    .form-control:focus{
+        outline:0;
+        box-shadow: none;
+    }
+
+    .btn{
+        background-color: $green;
+    }
+
+    

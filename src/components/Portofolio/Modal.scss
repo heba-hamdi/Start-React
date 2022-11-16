@@ -1,0 +1,48 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/title';
+@import '../../styles/flex';
+@import'../../styles/divider';
+
+.big-card{
+    // display: none;
+    margin: 0 auto;
+    position: relative;
+    .card{
+        @include flexCenter;
+        width: 80%;
+        padding: auto 50px;
+        background-color:#fff;
+        position:relative;
+        .card-title {
+            @include title
+        }
+        img, .card-text{
+            width: 700px;
+        }
+
+       .btn{
+        background-color: $green !important;
+        transition: background-color 0.3s ease;
+       }
+       .btn:hover{
+        background-color: #19997f !important;
+       }
+
+       .close-btn{
+       color:$green ;
+        position: absolute;
+        top:1%;
+        right:1%;
+        font-weight: 700;
+        cursor: pointer;
+       }
+    
+    }
+}
+
+
+
+
+
+

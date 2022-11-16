@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/title';
+@import '../../styles/flex';
+
+
+.hero {
+    background: $green !important;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+    @include flexCenter;
+
+    .image-wrapper {
+        width: 15rem;
+    }
+
+
+    .divider {
+       @include title;
+       .divider-line {
+        background-color: #fff;
+       }
+       .divider-icon{
+        color:#fff;
+       }
+    }
+}

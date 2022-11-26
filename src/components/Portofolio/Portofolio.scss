@@ -24,23 +24,37 @@
 .img-box{
     position: relative;
     cursor: pointer;
+    @include flexCenter;
+    overflow: hidden;
+    }
+
+    img{
+        border-radius: 8px; 
     }
 
 .layer{
     position: absolute;
     background-color: $green;
-    width:100%;
+    width:95%;
     height: 100%;
     border-radius: 8px;
     @include flexCenter;
     opacity:0;
     transition: all .5s ease; 
-    cursor: pointer;  
+    cursor: pointer; 
+    top:0%;
+    left:3%;
+    
 }
 
-.layer:hover .layer{
+.layer:hover{
     opacity:1;
    
+}
+
+.fa-plus{
+    color: #fff;
+    font-size: 4rem;
 }
 
 body{

@@ -62,9 +62,10 @@ const closeModal=()=>{
                        
                         {data.map((item, index)=>{
                             return (
-                            <div className="img-box col-md-4" key={index} onClick={()=>{getImg(item.imgSrc,item.title)}}>
-                                <img src={item.imgSrc} className='w-100' onClick={()=>{openModal(item.imgSrc)}} />
-                                <div className="layer"><i class="fa-solid fa-plus"></i></div>
+                            <div className="img-box col-md-4" key={index} onClick={()=>{getImg(item.imgSrc,item.title)}} >
+                                <div className="layer" onClick={()=>{openModal(item.imgSrc)}} ><i class="fa-solid fa-plus"></i></div>
+                                 <img src={item.imgSrc} className='w-100' />
+                                 
                             </div>
                             )
                         })}
